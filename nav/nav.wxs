@@ -1,0 +1,10 @@
+function setHeaderCss(height, menu, bgColor) {
+  var res =
+    "padding-top:" + height + "px;height:" + menu + "px;background:" + bgColor;
+  console.log(res);
+  return res;
+}
+
+module.exports = {
+  setHeaderCss: setHeaderCss,
+};

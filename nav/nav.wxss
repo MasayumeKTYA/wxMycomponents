@@ -1,0 +1,12 @@
+view,
+text {
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  width: 750rpx;
+  flex-direction: row;
+}
